@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
  * main - Entry point
  *
@@ -21,4 +21,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
