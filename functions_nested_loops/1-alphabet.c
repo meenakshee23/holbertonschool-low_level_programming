@@ -1,22 +1,15 @@
 #include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase
- *
- * Return: void
+ * print_alphabet - prints the alphabet in lowercase followed by a newline
  */
 void print_alphabet(void)
 {
-    char alphabet[27];
-    int i;
+char alphabet[] = "abcdefghijklmnopqrstuvwxyz\n";
+int i = 0;
 
-    for (i = 0; i < 26; i++)
-    {
-        alphabet[i] = 'a' + i;
-    }
-    alphabet[26] = '\n';
-
-    for (i = 0; i < 27; i++)
-    {
-        _putchar(alphabet[i]);
-    }
+while (alphabet[i] <= '\0')
+}
+_putchar(alphabet[i]);
+i++;
+}
 }
