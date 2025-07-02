@@ -2,7 +2,7 @@
 #define MAIN_H
 
 int _putchar(char c);
-void print_square(int Size);
+void print_triangle(int Size);
 
 #endif
 
