@@ -2,7 +2,7 @@
 /**
  * _pow_recursion - returns x to the power of y
  * @x: base number
- * @y: power 
+ * @y: power
  *
  * Return: result of x, y, or -1 if y is negative
  */
