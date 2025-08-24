@@ -14,7 +14,7 @@ char *_strncpy(char *dest, char *src, int n)
 	for (i = 0; i < n && src[i] != '\0'; i++)
 		dest[i] = src[i];
 
-	/* Pad with null bytes if src is shorter than n */
+
 	for (; i < n; i++)
 		dest[i] = '\0';
 
