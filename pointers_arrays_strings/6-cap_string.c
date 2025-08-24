@@ -11,7 +11,7 @@ char *cap_string(char *str)
 	int i = 0, j;
 	char sep[] = " \t\n,;.!?\"(){}";
 
-	/* Capitalize the first character if it's a letter */
+
 	if (str[i] >= 'a' && str[i] <= 'z')
 		str[i] -= 32;
 
