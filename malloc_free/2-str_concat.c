@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - joins two strings together into new memory
- * @s1: first string
- * @s2: second string
+ * str_concat - concatenates two strings
+ * @s1: first string (can be NULL, treated as empty)
+ * @s2: second string (can be NULL, treated as empty)
  *
- * Return: pointer to the new combined string, or NULL on failure
+ * Return:  pointer to the new string that contains s1 followed by s2,
+ * or NULL if memory allocation fails.
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -36,4 +37,3 @@ char *str_concat(char *s1, char *s2)
 
 	return (new_str);
 }
-
