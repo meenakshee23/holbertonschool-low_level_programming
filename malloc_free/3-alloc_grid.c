@@ -4,7 +4,7 @@
  * alloc_grid - create a 2D array of ints initialized to 0
  * @width: columns
  * @height: rows
- * Return: pointer to 2D array or NULL on failure
+ * Return - pointer to 2D array or NULL on failure
  */
 int **alloc_grid(int width, int height)
 {
